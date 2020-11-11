@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY NAV BAR</title>
+	<link rel="stylesheet" type="text/css" href="imgandiframes.css">
+</head>
+<body>
+	<nav>
+		<ul class="topnav" id="dropdownClick">
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#news">NEWS</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li class="topnav-right"><a href="#signup">SIGN UP</a></li>
+			<li class="topnav-right"><a href="#signin">SIGN IN</a></li>
+			<li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()"> &#9776 </a> </li>  
+		</ul>
+	</nav>
+
+<div class="container" id="section-1-gradient">
+    <div class="row"> 
+    	<div class="col-6">
+    	<div class="leftside-col"> 
+    		<h1 class="large">CRAZY DEV CREATION</h1>
+    		<h2 class="large"> RAGE THE DEVELOPERS</h2>
+    	</div>	
+    		<form>
+    			<div class="leftside-col">
+    				<h2>Username</h2>
+    				<input type="text" name="username" placeholder="Username">
+    				<h2>Password</h2>
+    				<input type="Password" name="Password" placeholder="Password">
+    			</div>
+    		</form>
+
+    	</div>
+    
+    	<div class="col-6">
+    		<div class="rightside-col">
+    			<div class="videocontainer">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/nWFS0v42uF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    			</div>
+    		</div>
+    	</div>
+
+    </div>
+</div>
+
+<!--IMAGES AND SHADOWS-->
+<header>
+	<h1 class="section2header"> The standards of Awesomeness </h1>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+					<img src="E:\kangroo.png">
+				</div>
+				<label>Chat with ME </label>
+				<p>This is the conduct kangroo.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+					<img src="E:\kangroo.png">
+				</div>
+				<label>Rock AND Roll </label>
+				<p>This is the conduct kangroo.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+					<img src="E:\kangroo.png">
+				</div>
+				<label>ZIP ZAP</label>
+				<p>This is the conduct kangroo.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<button class="learnmore"> Learn More</button>
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+<script>
+	function dropdownMenu() {
+		var x = document.getElementById("dropdownClick");
+		if (x.className === "topnav") {
+		 x.className += " responsive";
+			/* change topnav to responsive*/
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</body>
+</html>
