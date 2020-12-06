@@ -1,0 +1,23 @@
+.container-fluid{
+	background-color: #6C2EB9;
+	height: 5rem;
+}
+.row{
+	background-color: orange;
+	height: 4.7rem;
+}
+/*.col-sm-6{
+	background-color: #00c3aa;
+	height: 4rem;
+	border: 5px solid rbga(0,0,0,0.3);
+}
+.col-lg-4{
+	background-color: #00c3aa;
+	height: 4rem;
+	border: 5px solid rbga(0,0,0,0.3);
+}*/
+[class*="col-"]{
+	background-color: #00c3aa;
+	height: 4.2rem;
+	border:2px solid red;
+}

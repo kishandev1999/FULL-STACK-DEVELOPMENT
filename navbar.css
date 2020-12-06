@@ -1,0 +1,59 @@
+.jumbotron{
+	text-align: center;
+	background-color: pink;
+}
+.sectionwelcome{
+	background-color: lightblue;
+}
+.sectionmiddle{
+	background-color: lightgrey;
+	padding-left: 2rem;
+}
+.imgscale{
+	width: 100%;
+}
+.buttonaroundwraper{
+	margin-top: 20px;
+	background-color: red;
+	color: #fff;
+	display: block;
+	margin: auto;
+}
+.pulseimg{
+	width: 100%;
+}
+.modal-title{
+	display: block;
+	margin: auto;
+}
+.modalFormWrapper{
+	padding: 2rem;
+}
+.sectionimages{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.imgele{
+	display: block;
+	margin: auto;
+	width:50%;
+	height: 50%;
+}
+.btnele{
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+.sizerabbit{
+	
+	padding: 10px;
+}
+.footer{
+	margin-top: 10%;
+	background-color: grey;
+}
+.fa-facebook-square {
+	
+}
