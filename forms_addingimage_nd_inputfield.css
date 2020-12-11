@@ -1,0 +1,42 @@
+body.signinbody{
+	background-color: #e6f2ff;
+}
+.container.signincontainer{
+	margin-top: 2%; 
+	padding-left: 20%;
+	display: block;
+	/*margin-left: 18%;*/ 
+}
+.signincard{
+	padding: 40px 0px 20px;
+	background-color: grey;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.img .signinimg{
+	padding: 0px 2rem 2rem; /*top right-left bottom and rem units work like
+	R stands for root means grabbing the root font size of what the browser default set to: ex, the browser set 16px default so
+	we are saying we need 2 times larger than browswer sets default*/
+	margin: auto;
+	display: block; /*To stack beneath the anthe pakkana kakunda deeni kinda 
+	elements ravadanike manam block anni use cheyali*/
+	width: 50%;
+}
+.signinform {
+	padding-left: 90px; 
+	padding-right: 90px;
+	
+}
+.signinbtn{
+	color: white;
+	background-color: #d64829;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 1.2rem;
+	
+}
+.create_new_acc{
+	font-size: 1.2rem;
+	text-align: center;
+	display: block;/*to move around the element*/
+	margin-top: 15px;
+}
